@@ -1,0 +1,9 @@
+.caja{
+    
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
