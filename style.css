@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+.caja{ 
+    background:  #012f61;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header img {
+    height: 90px;
+    width: auto;
+    filter: invert(1);
+}
+
+footer{
+
+    background-color: #012f61;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+   div { 
+    background-color: rgb(228, 21, 21);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 10px;
+    
+    img{
+        height: 60px;
+        width: auto;
+        border-radius: inherit;
+
+    }
+    
+
+
+    }
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
